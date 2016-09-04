@@ -6,6 +6,6 @@ function debug {
   source "$shome/bash-preexec.sh"
   export DEBUG=1
 
-  exec "$@"
+  "$@"
 }
 
